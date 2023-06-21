@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Blog = () => {
+const Loding = () => {
   return (
     <div>
-      blog
+      Loading
     </div>
   )
 }
 
-export default Blog
-
+export default Loding
