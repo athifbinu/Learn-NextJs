@@ -13,22 +13,27 @@ const Navbar = () => {
     {
       id: 2,
       title: "Portfolio",
-      url: "/portfolio"
+      url: "/Portfolio"
     },
     {
       id: 3,
       title: "Blog",
-      url: "/blog"
+      url: "/Blog"
     },
     {
       id: 4,
-      title: "Contact",
-      url: "/contact"
+      title: "About",
+      url: "/About"
     },
     {
-      id:5,
-      title:"Dashborad",
-      url:"/dashboard"
+      id: 5,
+      title: "Contact",
+      url: "/Contact"
+    },
+    {
+      id:6,
+      title:"Dashboard",
+      url:"/Dashboard"
     },
   ]
   return (

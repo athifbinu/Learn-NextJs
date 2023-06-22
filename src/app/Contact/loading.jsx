@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Dashborad = () => {
+const Loading = () => {
   return (
     <div>
-      Dashbord
+      Loading
     </div>
   )
 }
 
-export default Dashborad
+export default Loading
