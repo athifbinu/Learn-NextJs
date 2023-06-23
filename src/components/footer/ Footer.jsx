@@ -1,9 +1,13 @@
+
 import React from 'react'
 
 const  Footer = () => {
+
+   
   return (
     <div>
-      Footer
+       <div>2023 copyringht</div>
+       <div></div>
     </div>
   )
 }
