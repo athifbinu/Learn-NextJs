@@ -7,7 +7,7 @@ const About = () => {
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
-          src="https://images.pexels.com/photos/3912992/pexels-photo-3912992.jpeg?auto=compress&cs=tinysrgb&w=400"
+          src="https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           fill={true}
           alt=""
           className={styles.img}
@@ -53,6 +53,7 @@ const About = () => {
             <br /> - Mobile Apps
           </p>
           <Button url="/Contact" text="Contact" />
+          
         </div>
       </div>
     </div>
