@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 
 async function getData() {
-  const res = await fetch("http://localhost:3000/api/posts", {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
     cache: "no-store",
   });
 
@@ -21,6 +21,7 @@ const Blog =async () => {
 
 
   const data =await getData()
+
    
   return (
     <div className={styles.mainContainer}>

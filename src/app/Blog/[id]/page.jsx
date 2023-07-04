@@ -17,6 +17,7 @@ async function getData(id) {
 }
 
 
+//to make seo meta data
 export async function generateMetadata({ params }) {
 
   const post = await getData(params.id)
